@@ -1,0 +1,209 @@
+/* CSS Document */
+
+body {
+	background-color:#b3b3b3;
+	margin:0px;
+}
+
+@font-face {
+font-family: 'Sacramento-Regular';
+  src: url('font/menu/Frijole-Reguler.eot');
+  src: url('font/menu/Frijole-Reguler.eot?#iefix') format('embedded-opentype'),
+       url('fonts/menu/Frijole-Reguler.svg#Sacramento-Regular') format('svg'),
+       url('font/menu/Frijole-Reguler.ttf') format('truetype'),
+       url('font/menu/Frijole-Reguler.woff') format('woff'),
+       url('font/menu/Frijole-Reguler.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+font-family: 'Sacramento-Happy';
+  src: url('font/rıgmenu/HappyMonkey-Regular.eot');
+  src: url('font/rıgmenu/HappyMonkey-Regular.eot?#iefix') format('embedded-opentype'),
+       url('fonts/rıgmenu/HappyMonkey-Regular.svg#Sacramento-Happy') format('svg'),
+       url('font/rıgmenu/HappyMonkey-Regular.ttf') format('truetype'),
+       url('font/rıgmenu/HappyMonkey-Regular.woff') format('woff'),
+       url('font/rıgmenu/HappyMonkey-Regular.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+font-family: 'Sacramento-Open';
+  src: url('font/open/OpenSans-Regular.eot');
+  src: url('font/open/OpenSans-Regular.eot?#iefix') format('embedded-opentype'),
+       url('fonts/open/OpenSans-Regular.svg#Sacramento-Open') format('svg'),
+       url('font/open/OpenSans-Regular.ttf') format('truetype'),
+       url('font/open/OpenSans-Regular.woff') format('woff'),
+       url('font/open/OpenSans-Regular.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+p, li, h2, h3 {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:14px;
+	line-height:140%;
+}
+
+.wrapper {
+	width:900px;
+	margin:0px auto;
+	background-color:#fff;
+}
+
+.header img {
+	width:50px;
+	height:50px;
+}
+
+
+.header {
+	background-color:#282830;
+	padding:20px;
+	color:#e6e6e6;
+}
+
+.header h1 {
+	color:#AA2A2A;
+}
+
+.nav {
+	width:900px;
+	background-color:#666;
+	float:left;
+}
+
+.nav ul {
+	margin:0px;
+	padding:0px;
+}
+
+.nav li {
+	list-style-type:none;
+	display:inline;
+}
+
+.nav li a {
+	display:block;
+	padding:5px 20px;
+	color:#fff;
+	float:left;
+	text-decoration:none;
+	border-right:1px #fff solid;
+	font-family:'Sacramento-Regular';
+}
+
+.nav a:hover {
+	background-color:#C0C0C0;
+}
+
+.content {
+	padding:20px;
+}
+
+.content h1 {
+	color:#AA2A2A;
+}
+.content img {
+	margin:10px;
+	border-radius:20px;
+	
+}
+
+.footer {
+	
+	clear:both;
+	background-color:#282830;
+	padding:3px 10px;
+}
+
+.footer p {
+	font-family: 'Sacramento-Open';
+	color:#C0C0C0;
+	margin-left:40%;
+	margin-right:40%;
+}
+
+.steam img {
+	width:164px;
+	height:104px;
+	margin:0px auto;
+	margin:8px;
+	border:1px #ccc solid;
+	padding:8px;
+	
+}
+
+.bannerlord img {
+width:650px;
+height:380px;
+margin:0px auto;
+}
+.social-media		{ float:right; 
+margin:0px 10px 0px 0px; 
+text-align:left;}
+
+.social-media ul li { display:inline; }
+.social-media p { color:#FFF;
+font-family: 'Sacramento-Open';
+font-size:11px;
+margin:4px 10px 4px 0px;}
+.social-media img { width:28px;
+height:28px; }
+
+.rightside 			{ padding:25px; 
+margin-left:675px;
+background-color:#666;
+}
+
+.rightside h2  { color:#600;
+margin:20px 0px 10px 0px;
+font-family: 'Sacramento-Happy';}
+
+.rightside p  { line-height:180%;
+font-family: 'Sacramento-Open';
+text-align:justify;
+margin:10px 10px;
+color:#FFF;
+}
+
+.rightside img {
+	width:190px;
+	height:100px;
+	margin:0px auto;
+}
+
+.content 			{ float:left; 
+width:650px;
+padding:20px;}
+
+.content h1	{ margin:0px 0px 20px 0px;
+font-family: 'Sacramento-Open';
+border-bottom:1px #999 solid;
+padding:20px 0px;
+}
+
+.content p { line-height:180%;
+font-family: 'Sacramento-Open';
+text-align:justify;
+margin:10px 10px 0px 0px;
+}
+
+.content h2 { margin:30px 0px 10px 0px;
+font-family: 'Sacramento-Open';
+}
+
+.subbanner 			{ width:100%;
+background-color:#555;
+overflow:hidden;
+ padding:10px 0px; }
+.subbanner p {
+	font-family:'Sacramento-Regular'; 
+	font-size:16px; 
+	color:#FFF;
+	line-height:180%;
+	text-align:center;
+}
